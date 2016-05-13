@@ -67,9 +67,9 @@ public class MainActivity extends AppCompatActivity
 
 
     public void visualizaMap(View view){
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.MAPS_RECEIVE) != PackageManager.PERMISSION_GRANTED) {
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             Log.d("PLAYGROUND-2", "Permission is not granted, requesting");
-            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.MAPS_RECEIVE}, 123);
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 123);
             //btnSendSms.setEnabled(false);
         } else {
             Log.d("PLAYGROUND-3", "Permission is granted");
