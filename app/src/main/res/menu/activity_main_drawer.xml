@@ -3,33 +3,26 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Camera" />
-        <item
-            android:id="@+id/nav_blocked"
-            android:icon="@drawable/ic_menu_blocked"
-            android:title="Bloqueado" />
-        <item
             android:id="@+id/nav_contact"
             android:icon="@drawable/ic_menu_contact"
-            android:title="Contato" />
+            android:title="Contatos" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_menu_favorite"
+            android:title="Favoritos" />
         <item
             android:id="@+id/nav_history"
             android:icon="@drawable/ic_menu_history"
-            android:title="Historico" />
+            android:title="Histórico" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Comunicação">
         <menu>
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="Compartilhar" />
+
         </menu>
     </item>
 
